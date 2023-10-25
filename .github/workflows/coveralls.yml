@@ -1,12 +1,12 @@
 name: Coveralls
 
 on:
-  pull-request:
-    branches:
-      - "*" # Replace with your branch name
+  # pull-request:
+  #   branches:
+  #     - "*" # Replace with your branch name
   push:
     branches:
-      - master # Replace with your branch name
+      - v2 # Replace with your branch name
 
 jobs:
   coveralls:
